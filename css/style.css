@@ -65,12 +65,19 @@ justify-content: center;
     padding: 0;
     margin: 0;
 }
-.menu2{
-    background-color: bisque;
-    color:blue;
-    height: 300px;
-    width: 300px;
+.right__img{
+    width: 280px;
+
 }
+.right__btn{
+    padding: 20px 60px;
+    text-transform: uppercase;
+    background-color: grey;
+    color:red;
+    font-size: 24px;
+    line-height: 26px;
+}
+
 .center{
     width: 500px;
     margin: 0 10px;
@@ -96,31 +103,29 @@ justify-content: center;
    width: 500px;
    margin-bottom: 20px;
 }
-
-.left{
+.left, .right{
     background-color: beige;
     width: 300px;
     border: 1px solid red;
     padding: 20px 10px;
 }
-.left__title{
+.left__title, .right__title{
     font-size: 20px;
     line-height: 22px;
     text-transform: uppercase;
     margin: 0 auto;
     margin-bottom: 20px;
 }
-.left__text{
+.left__text, .right__text{
     font-size: 18px;
     line-height: 20px;
     margin-bottom: 10px;
 }
-.left__item{
+.left__item, .right__item{
     list-style:disc;
     margin-bottom: 5px;
     margin-left: 25px;
 }
-
 .footer{
     height: 100px;
     background-color: aqua;
