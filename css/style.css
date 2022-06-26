@@ -73,6 +73,8 @@ justify-content: center;
 }
 .center{
     width: 500px;
+    margin: 0 10px;
+    padding: 0 5px;
 }
 .center__title{
     font-size: 26px;
@@ -95,18 +97,30 @@ justify-content: center;
    margin-bottom: 20px;
 }
 
-
-
-.center__footer{
-color: brown;
-text-align: center;
-}
 .left{
     background-color: beige;
-    color: blue;
-    text-align: center; 
     width: 300px;
+    border: 1px solid red;
+    padding: 20px 10px;
 }
+.left__title{
+    font-size: 20px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.left__text{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.left__item{
+    list-style:disc;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
 .footer{
     height: 100px;
     background-color: aqua;
